@@ -1,14 +1,14 @@
-# Crop Yield Prediction Using Drone
+# Crop Classification and Yield Prediction Using Image Processing
 
 ## Overview
 
-This repository contains code and models for a comprehensive system that leverages drone imagery for crop-related tasks. The system is divided into three main modules:
+This repository contains code and models for a comprehensive system that leverages images for crop-related tasks. The system is divided into three main modules:
 
-1. **Crop Identification**: Utilizing images captured by drones, this model can identify various crops such as rice, maize, wheat, sugarcane, and paddy. The accuracy of this model is an impressive 91.9%.
+1. **Crop Identification**: Utilizing images captured by high resolution cameras, this model can identify various crops such as rice, maize, wheat, sugarcane, and paddy. The accuracy of this model is an impressive 91.9%.
 
    [Crop Identification Model](https://drive.google.com/file/d/1vu8APu1H27H5Lg7KOVyezbdi6H8VsOHx/view?usp=drive_link)
 
-2. **Fire Detection**: The second module focuses on fire detection using image processing techniques. The model can analyze drone images to identify and locate fires in agricultural fields. The accuracy of this model is 95%.
+2. **Fire Detection**: The second module focuses on fire detection using image processing techniques. The model can analyze images to identify and locate fires in agricultural fields. The accuracy of this model is 95%.
 
    [Fire Detection Model](https://drive.google.com/file/d/1eB_6I6iJ-R2C9hIYvnDiZPKoXMbDYx0p/view?usp=drive_link)
 
@@ -16,7 +16,7 @@ This repository contains code and models for a comprehensive system that leverag
 
    [Crop Yield Prediction Model](https://drive.google.com/file/d/1-55fvL0BrwEMcwdocIWnDmPvcchZbBfj/view?usp=sharing)
 
-4. **Aerial Seeding**: Another feature of this project is of aerial seeding in which there is a system using which seeds can be dropped in the farm using the drone. The drone will be provided 30 seconds to position itself and then the seed box will continue to open and close at intervals of 5 seconds for 20 to 30 minutes. The code for the arduino file has been provided in the repository
+4. **Aerial Seeding**: Another feature of this project is of aerial seeding in which there is a system using which seeds can be dropped in the farm using the aerial seeding system. The system will be provided 30 seconds to position itself and then the seed box will continue to open and close at intervals of 5 seconds for 20 to 30 minutes. The code for the arduino file has been provided in the repository
 
 ## Datasets
 
@@ -40,4 +40,4 @@ The crop yield prediction model was trained on a dataset encompassing various fa
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/crop-yield-prediction-using-drone.git
+git clone https://github.com/your-username/crop-classification-and-yield-prediction.git
